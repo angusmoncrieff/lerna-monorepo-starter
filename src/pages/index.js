@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import { ItemCard, ItemCardWrapper } from '../components/ItemCard'
+import { ItemCard, ItemCardWrapper } from '../../packages/shared-ui'
 
 const IndexPage = ({ data }) => {
   const edges = data.allShoppingJson.edges
 
-  return(
+  return (
     <div>
       <h1>Hi people</h1>
       <ItemCardWrapper>
